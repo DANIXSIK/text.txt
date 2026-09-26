@@ -1,0 +1,10 @@
+{
+  // Имя воркера — станет частью адреса https://textbridge.<твой-поддомен>.workers.dev
+  "name": "textbridge",
+  "main": "textbridge-worker.js",
+  "compatibility_date": "2026-09-26",
+  "kv_namespaces": [
+    // id вставь из вывода команды: npx wrangler kv namespace create textbridge-data
+    { "binding": "TEXTBRIDGE", "id": "ВСТАВЬ_СЮДА_ПОЛУЧЕННЫЙ_ID" }
+  ]
+}
