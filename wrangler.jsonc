@@ -5,6 +5,6 @@
   "compatibility_date": "2026-09-26",
   "kv_namespaces": [
     // id вставь из вывода команды: npx wrangler kv namespace create textbridge-data
-    { "binding": "TEXTBRIDGE", "id": "ВСТАВЬ_СЮДА_ПОЛУЧЕННЫЙ_ID" }
+    { "binding": "TEXTBRIDGE", "id": "b5214fe60a7a4f04a4f85435971f027c" }
   ]
 }
